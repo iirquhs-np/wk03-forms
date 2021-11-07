@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>wk03-forms</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>NPICT Module Withdrawal Form</h1>
+    </header>
+    <form>
+        <div id="name">
+            Full Name: <input type="text">
+        </div>
+        <div id="email">
+            School Email: <input type="email">
+        </div>
+        <div id="class">
+            Class: |
+            IT01 <input type="radio" name="class"> |
+            IT02 <input type="radio" name="class"> |
+            IT03 <input type="radio" name="class"> |
+            IT04 <input type="radio" name="class"> |
+            IT05 <input type="radio" name="class"> |
+        </div>
+        <div id="modules">
+            Module(s) to drop: |
+            PRG2 <input type="checkbox"> |
+            DB <input type="checkbox"> |
+            ID <input type="checkbox"> |
+            OSNF <input type="checkbox"> |
+        </div>
+        <div id="reason">
+            <textarea name="" id="" cols="50" rows="10">I am dropping the selected module(s) as ...</textarea>
+        </div>
+        <div id="submission-date">
+            Submission date: <input type="date"> <input type="time">
+        </div>
+        <div>
+            <input type="button" value="Submit">
+        </div>
+
+    </form>
+
+</body>
+</html>
